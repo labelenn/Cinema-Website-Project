@@ -1,0 +1,798 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Comfortaa';
+    font-weight: 500;
+}
+
+li, a {
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+Header {
+    display: flex;
+    background-color: #202020;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%; 
+}
+
+.home {
+    background-color: #383838;
+}
+
+#home-heading {
+    background-color: #202020;
+}
+
+#home-trailer {
+    margin-top: 95px;
+    object-fit: cover;
+    width: 100%;
+    max-height: 6000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.1;
+}
+
+.signin {
+    background-color: #383838;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: right;
+}
+
+.signin h1 {
+    margin-bottom: 20px;
+}
+
+.signup {
+    background-color: #383838;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: right;
+}
+
+.signup h1 {
+    margin-bottom: 20px;
+}
+
+.profile {
+    background-color: #383838;
+    padding: 150px;
+    text-align: center;
+}
+
+.profile-details {
+    background-color: #202020;
+    padding: 50px;
+    border-radius: 8px;
+    margin: 50px;
+}
+
+.profile-details h1{
+    padding-bottom: 20px;
+}
+
+#profile-heading {
+    padding-bottom: 50px;
+}
+
+#profile-content{
+    padding-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #202020;
+    padding: 70px;
+    text-align: center;
+}
+
+#for-admins-link {
+    text-decoration: underline;
+}
+
+.socials img {
+    transition: transform .5s;
+    width: 30px;
+    margin: 10px;
+}
+
+.socials img:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.logo a{
+    font-size: 2rem;
+}
+
+#admin-home-link {
+    align-items: center;
+}
+
+.nav {
+    list-style: none;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav li a{
+    transition: all 0.3s ease 0s;
+}
+
+.active {
+    color: #E50914;  
+    text-decoration: underline;
+}
+
+.nav li a:hover {
+    color: #E50914;
+    
+}
+
+.content {
+    background-color: #383838;
+    text-align: center;
+    padding: 50px;
+}
+
+.content img {
+    width: 15%;
+}
+
+/* Sign-in page */
+.signin-success {
+    text-align: center;
+    padding: 50px;
+}
+
+.signin-error {
+    text-align: center;
+    padding: 50px;
+}
+
+.text-danger {
+    color: red
+}
+
+/*Sign-up link */
+.signin a{
+    text-decoration: underline;
+}
+.signin a:hover {
+    color: #E50914;
+}
+
+/* FORMS */
+.account-form {
+    padding: 50px;
+    text-align: right;
+    border-radius: 30px; 
+    background-color: #202020;
+}
+
+input {
+    background-color: white;
+    color: black;
+}
+
+input:focus {
+    outline: 2px solid #bc0000;
+}
+
+label {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+input[type=firstname] {
+    font-size: 15px;
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+input[type=lastname] {
+    font-size: 15px;
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+input[type=email] {
+    font-size: 15px;
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+input[type=password] {
+    font-size: 15px;
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+input[type=moviename] {
+    font-size: 15px;
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+input[type=director] {
+    font-size: 15px;
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+input[type=plot] {
+    font-size: 15px;
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+input[type=year] {
+    font-size: 15px;
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+
+input[type=stars] {
+    font-size: 15px;
+    width: 30%;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+input[type=review] {
+    font-size: 15px;
+    width: 30%;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+input[type=submit] {
+    width: 10%;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    background-color: #E50914;
+    color: white;
+}
+
+input[type=update] {
+    width: 15%;
+    text-align: center;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    background-color: #E50914;
+    color: white;
+}
+
+input[type=cancel] {
+    width: 15%;
+    text-align: center;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    background-color: #E50914;
+    color: white;
+}
+
+input[type=review-submit] {
+    text-align: center;
+    width:  100px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    background-color: #E50914;
+    color: white;
+}
+
+input[type=review-button] {
+    text-align: center;
+    width:  100px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    background-color: #E50914;
+    color: white;
+}
+
+input[type = admin-manage]{
+    text-align: center;
+    width:  100px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    background-color: #620000;
+    color: white;
+}
+
+input[type = admin-manage]:hover{
+    background-color: #b60000;
+}
+
+/* MOVIES */
+img {
+    width: 75%;
+}
+
+.movie-item img {
+    transition: transform .5s;
+    margin-bottom: 20px;
+}
+
+.movie-item img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.movies {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.movie-item {
+    min-width: 100px;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 100px;
+    
+}
+
+.movie-details {
+    font-size: 75%;
+}
+
+.sessions-dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+/* REVIEWS PAGE */
+.content-reviews {
+    background-color: #383838;
+    text-align: center;
+    padding: 50px;
+    min-height:500px;
+}
+.movie-list {
+    padding: 20px;
+}
+
+.movie-list ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.movie-list button {
+    background-color: #E50914;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.movie-list button:hover {
+    background-color: #82060d;
+}
+
+.reviews {
+    padding: 30px;
+}
+
+.reviews li{
+    padding: 50px;
+    background-color: #2e2e2e;
+    list-style-type: none;
+}
+
+#review-prompts{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#review-movie-poster{
+    width: 15%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.manage-review-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+/* Movie Information and Reservation */
+.movie-info-page {
+    background-color: #383838;
+}
+
+.movie-info-header {
+    text-align: center;
+    padding: 50px;
+}
+
+.movie-info-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #383838;
+    min-height:500px;
+}
+
+.movie-info-content-element {
+    align-items: center;
+    text-align: center;
+}
+
+.movie-info-movie-img {
+    margin-left: 50px;
+    margin-bottom: 100px;
+    width: 30%;
+}
+
+.movie-info-details {
+    padding-top: 100px;
+    align-content: center;
+}
+
+.movie-info-movie-sessions {
+    padding-right: 50px;
+    padding-top: 50px;
+    text-align: center;
+    align-content: center;
+    width: 30%;
+}
+
+.movie-info-movie-sessions p{
+    padding-bottom: 20px;
+}
+
+.movie-info-movie-sessions button {
+    background-color: #E50914;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: none;
+}
+
+.movie-info-movie-sessions button:hover {
+    background-color: #82060d;
+    cursor: pointer;
+}
+
+.movie-info-movie-sessions li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+.reservation-page {
+    background-color: #383838;
+}
+
+.reservation-header {
+    text-align: center;
+    padding: 50px;
+}
+
+.reservation-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #383838;
+    min-height:500px;
+}
+
+.reservation-content-element {
+    align-items: center;
+    text-align: center;
+}
+
+.reservation-movie-img {
+    margin-left: 50px;
+    margin-bottom: 100px;
+    width: 30%;
+}
+
+.reservation-movie-info {
+    padding-top: 100px;
+    align-content: center;
+}
+
+.reservation-movie-sessions {
+    padding-right: 50px;
+    padding-top: 50px;
+    text-align: center;
+    align-content: center;
+    width: 30%;
+}
+
+.reservation-movie-sessions p{
+    padding-bottom: 20px;
+}
+
+.reservation-movie-sessions li {
+    list-style-type: none;
+}
+
+.seat-count-selection {
+    display: flex;
+}
+
+.seat-icons img {
+    width: 10%;
+    margin: 5px;
+}
+
+.seat-icons img:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.reservation-button button {
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    background-color: #E50914;
+    border-style: none;
+}
+
+.reservation-button button:hover {
+    background-color: #82060d;
+    cursor: pointer;
+}
+
+.reservations-list {
+    min-height: 405px;
+    background-color: #383838;
+    text-align: center;
+}
+
+.reservations-list h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.reservations-list li{
+    list-style-type: none;
+}
+
+.reservation {
+    padding: 30px;
+}
+
+.reservation-info {
+    background-color: #202020;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* ADMIN PAGES */
+
+.dashboard-wrapper{
+    display: grid;
+}
+
+#admin-dashboard{
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    background-color: #383838;
+    min-height: 600px;
+}
+
+#dashboard-column-heading {
+    background-color: #620000;
+    padding: 10px;
+}
+
+.dashboard-column-content {
+    min-height: 500px;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.admin-dashboard-users {
+    background-color: #202020;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+    min-height: 525px;
+}
+.admin-dashboard-users li{
+    background-color:#383838;
+    list-style: none;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.admin-dashboard-users p {
+    padding-bottom: 10px;
+}
+
+.admin-dashboard-reviews {
+    background-color: #202020;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+    min-height: 525px;
+}
+
+.admin-dashboard-reviews li{
+    background-color:#383838;
+    list-style: none;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.admin-dashboard-reviews p {
+    padding-bottom: 10px;
+}
+
+.dashboard-review-heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.admin-dashboard-movies {
+    background-color: #202020;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+    min-height: 525px;
+}
+
+.admin-dashboard-movies li{
+    background-color:#383838;
+    list-style: none;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.admin-dashboard-movies p {
+    padding-bottom: 10px;
+}
+
+.dashboard-movie-heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.dashboard-manage-button {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.admin-manage {
+    background-color: #383838;
+    min-height: 600px;
+    padding: 50px
+}
+
+.admin-manage-content {
+    text-align: center;
+}
+
+.admin-manage-content p {
+    padding: 10px;
+}
+
+.admin-manage-content li{
+    background-color: #202020;
+    padding: 20px;
+    margin: 50px;
+    list-style: none;
+    border-radius: 5px;
+}
+
+.dashboard-manage-button-group{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-right: 500px;
+    padding-left: 500px;
+}
+
+
+/* Scroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #202020;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #383838;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+
+
+
