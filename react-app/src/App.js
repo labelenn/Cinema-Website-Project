@@ -161,7 +161,7 @@ function App() {
         <Navbar firstname = {userFN} logoutUser = {logoutUser}/>
       </header>
       <Routes>
-        <Route exact path = "/" element = {<Home firstname = {userFN}/>}></Route>
+        <Route exact path = "/Cinema-Website-Project" element = {<Home firstname = {userFN}/>}></Route>
         <Route path = "/admin" element = {<Dashboard/>}></Route>
         <Route path = "/movieinfo" element = {<MovieInfo/>}></Route>
         <Route path = "/reservation" element = {<Reservation/>}></Route>
