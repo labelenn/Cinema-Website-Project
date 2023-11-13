@@ -1,3 +1,6 @@
+This website application is a project that I created for the course Full Stack Development Semester 2 2023.
+This course was taken by me during my second year of Bachelor of Software Engineering at RMIT University Australia.
+
 Full Stack Development S2 2023
 Assignment 2
 Lance Belen - s3944846
