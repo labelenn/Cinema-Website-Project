@@ -1,5 +1,7 @@
 This website application is a project that I created for the course Full Stack Development Semester 2 2023.
+
 This course was taken by me during my second year of Bachelor of Software Engineering at RMIT University Australia.
+
 This website application is built on:
 - React
 - CSS
