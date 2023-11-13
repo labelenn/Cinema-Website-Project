@@ -9,7 +9,7 @@ function Header() {
 
     return (
         <div className = "logo">
-            <Link to = '/' onClick = {() => {setAdminPage(false)}}>Loop Web</Link>
+            <Link to = '/Cinema-Website-Project' onClick = {() => {setAdminPage(false)}}>Loop Web</Link>
         </div>
     );
 }
