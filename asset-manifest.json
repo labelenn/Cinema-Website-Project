@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Cinema-Website-Project/static/css/main.61dd4b06.css",
+    "main.js": "/Cinema-Website-Project/static/js/main.183f2b88.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Cinema-Website-Project/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Trailers.mp4": "/Cinema-Website-Project/static/media/Trailers.8bdfe771e47ee32676b0.mp4",
+    "static/media/black panther.jpg": "/Cinema-Website-Project/static/media/black panther.399039a432fffdf93f1f.jpg",
+    "static/media/oppenheimer.jpg": "/Cinema-Website-Project/static/media/oppenheimer.529f8f17b2ccf7f078da.jpg",
+    "static/media/top gun maverick.jpg": "/Cinema-Website-Project/static/media/top gun maverick.bffa1d3eba19e5bb4449.jpg",
+    "static/media/avengers.jpg": "/Cinema-Website-Project/static/media/avengers.2e9073e096576ce0b3ad.jpg",
+    "static/media/the notebook.jpg": "/Cinema-Website-Project/static/media/the notebook.615161ef9a31e79782de.jpg",
+    "static/media/gran turismo.jpg": "/Cinema-Website-Project/static/media/gran turismo.862d3d79ed1e951b6e3b.jpg",
+    "static/media/serendipity.jpg": "/Cinema-Website-Project/static/media/serendipity.5d5b9c425f79f2ad1e02.jpg",
+    "static/media/barbie.jpg": "/Cinema-Website-Project/static/media/barbie.262b56a8539f2860a669.jpg",
+    "static/media/instagram.png": "/Cinema-Website-Project/static/media/instagram.79535458a8a6d88f81d4.png",
+    "static/media/twitter.png": "/Cinema-Website-Project/static/media/twitter.c6e48e60f856cb822273.png",
+    "static/media/facebook.png": "/Cinema-Website-Project/static/media/facebook.b29a479ba80fd7d1f60d.png",
+    "static/media/armchair-selected.png": "/Cinema-Website-Project/static/media/armchair-selected.b068f4a4028a99f196f0.png",
+    "static/media/armchair.png": "/Cinema-Website-Project/static/media/armchair.56d00df0479efdc98128.png",
+    "index.html": "/Cinema-Website-Project/index.html",
+    "main.61dd4b06.css.map": "/Cinema-Website-Project/static/css/main.61dd4b06.css.map",
+    "main.183f2b88.js.map": "/Cinema-Website-Project/static/js/main.183f2b88.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Cinema-Website-Project/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61dd4b06.css",
+    "static/js/main.183f2b88.js"
+  ]
+}
